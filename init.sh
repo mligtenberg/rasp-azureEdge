@@ -7,10 +7,10 @@ git clone --depth 1 https://github.com/RPI-Distro/pi-gen.git
 touch ./pi-gen/stage2/SKIP_IMAGES ./pi-gen/stage2/SKIP_NOOBS
 
 ## link config
-ln -s ../config ./pi-gen
+cp ../config ./pi-gen
 
 ## link stage2-iotedge
-ln -s ../stage2-iotedge ./pi-gen
+cp -r ../stage2-iotedge ./pi-gen
 
 ## link future deploys
 [[ ! -d ./pi-gen/deploy ]] && mkdir ./pi-gen/deploy
