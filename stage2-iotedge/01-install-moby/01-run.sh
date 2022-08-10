@@ -1,3 +1,3 @@
 #!/bin/bash -e
 
-install -m 644 files/deamon.json "${ROOTFS_DIR}/etc/docker/daemon.json"
+install -m 644 files/daemon.json "${ROOTFS_DIR}/etc/docker/daemon.json"
