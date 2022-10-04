@@ -1,1 +1,1 @@
-# rasp-azurEedge
+# rasp-azureEdge
